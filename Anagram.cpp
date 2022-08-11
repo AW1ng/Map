@@ -15,8 +15,7 @@ class Anagram {
 		}
 		
 		bool IsAnagram(string first, string second) {
-			if( CharCounter(second) == CharCounter(first) ) return true;
-			return false;
+			return ( CharCounter(second) == CharCounter(first) );
 		}
 };
 
